@@ -2,13 +2,13 @@
 
 Gem::Specification.new do |gem|
   gem.name    = "figaro"
-  gem.version = "1.1.1"
+  gem.version = "1.1.2"
 
-  gem.author      = "Steve Richert"
-  gem.email       = "steve.richert@gmail.com"
+  gem.author      = "Sangmin Ryu"
+  gem.email       = "neocoin@gmail.com"
   gem.summary     = "Simple Rails app configuration"
-  gem.description = "Simple, Heroku-friendly Rails app configuration using ENV and a single YAML file"
-  gem.homepage    = "https://github.com/laserlemon/figaro"
+  gem.description = "Simple, Rails app configuration using ENV and a single YAML file. Fork from https://github.com/laserlemon/figaro"
+  gem.homepage    = "https://github.com/neocoin/figaro"
   gem.license     = "MIT"
 
   gem.add_dependency "thor", "~> 0.14"
