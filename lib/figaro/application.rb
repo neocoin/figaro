@@ -37,7 +37,7 @@ module Figaro
         key, value = i
         skip?(key) ? (obj << key) : set(key, value)
       end.sort.tap do |keys|
-        warn("환경변수 사용키 : #{keys * ','}")
+        warn("환경변수 사용 : #{keys * ','}") unless keys.empty?
       end
     end
 
